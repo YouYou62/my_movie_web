@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: #eeeeee;
+}
+
+.headerInner{
+    width: 650px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerInner,.mainInner{
+    max-width: 650px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+main{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+video{
+    border:solid 10px gray;
+}
+
+footer{
+    width: 100%;
+    background: #eeeeee;
+    position: absolute;
+    bottom: 0;
+}
+.footerInner{
+    text-align: center;
+}
